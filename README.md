@@ -42,6 +42,6 @@ The dataset used for this project is the [Face-Detection-Dataset](https://www.ka
 ```
 ## Results
 <p align="center">
-  <img width="992" height="372" src="/Results/Results - Avg. IoU.png">
-  <img width="992" height="372" src="/Results/Results - Avg. Recall.png">
+  <img src="/Results/Results - Avg. IoU.png">
+  <img src="/Results/Results - Avg. Recall.png">
 </p>
