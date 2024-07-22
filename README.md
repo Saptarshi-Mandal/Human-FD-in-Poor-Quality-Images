@@ -1,5 +1,9 @@
 # Impact of Image Preprocessing on Human Face Detection
 
+<p align="center">
+  <img src="/Images/intro.png">
+</p>
+
 ## Introduction
 
 In the domain of computer vision, accurate object detection is a fundamental challenge, especially in poor-quality images. This project explores the effect of different pre-processing techniques such as image denoising, deblurring, and contrast enhancement on face detection performance.
