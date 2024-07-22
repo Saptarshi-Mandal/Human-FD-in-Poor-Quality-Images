@@ -1,6 +1,6 @@
-# Human FD(Face Detection) in Poor Quality Images
+# Impact of Image Preprocessing on Human Face Detection
 
-## Problem Statement
+## Introduction
 
 In the domain of computer vision, accurate object detection is a fundamental challenge, especially in poor-quality images. This project explores the effect of different pre-processing techniques such as image denoising, deblurring, and contrast enhancement on face detection performance.
 
