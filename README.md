@@ -3,6 +3,7 @@
 <p align="center">
   <img src="/Images/intro.png">
 </p>
+
 ## Introduction
 
 In the field of computer vision, accurate face detection is a critical challenge, particularly when dealing with low-quality images. This project investigates the impact of various pre-processing techniques, including image denoising, deblurring, and contrast enhancement, on the performance of face detection in poor-quality images.
