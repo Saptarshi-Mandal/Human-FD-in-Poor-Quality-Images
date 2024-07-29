@@ -14,20 +14,20 @@ In the field of computer vision, accurate face detection is a critical challenge
 
 ## Pre-processing Techniques
 
-1. ### Denoising Techniques
-   i. **Wiener Filter**
-   ii. **Principal Component Analysis (PCA)**
-   iii. **Non-Local Means (NLM)**
+1. **Denoising Techniques**
+   1. **Wiener Filter**
+   2. **Principal Component Analysis (PCA)**
+   3. **Non-Local Means (NLM)**
 
-2. ### Deblurring Techniques
-   i. **Wiener Filter**
+2. **Deblurring Techniques**
+   1. **Wiener Filter**
 
-3. ### Contrast Enhancement Techniques
-   i. **BBHE (Brightness Preserving Bi-Histogram Equalization)**
-   ii. **RMSHE (Recursive Mean-Separate Histogram Equalization)**
+3. **Contrast Enhancement Techniques**
+   1. **BBHE (Brightness Preserving Bi-Histogram Equalization)**
+   2. **RMSHE (Recursive Mean-Separate Histogram Equalization)**
 
 ## Classifier
-- The **Haar Cascade Classifier** is used for face detection in this project.
+The **Haar Cascade Classifier** is used for face detection in this project.
 
 ## Dataset
 The dataset used for this project is the [Face-Detection-Dataset](https://www.kaggle.com/datasets/fareselmenshawii/face-detection-dataset) available on Kaggle.
@@ -41,19 +41,21 @@ The performance of the face detection algorithm is evaluated using the following
 - **Average Precision**
 - **Average Recall**
 
+### Comparison of Pre-processing techniques
 The performance of the different pre-processing techniques on face detection are also compared using the above metrics.
 We synthetically introduced white noise of variances ranging from 0.1 to 0.5 on the original clean images and then applied the different pre-processing techniques to analyse the performance on face detection.
 <p align="center">
-  <img src="/Results/result1.png" alt="Comparison of the different pre-processing techniques when white noise is applied on the images">
+  <img src="/Results/result1.png" alt="Comparison of the different pre-processing techniques when white noise is applied on the images" style="width: 75%;">
 </p>
 Similarly, instead of white noise, salt and pepper noise was introduced.
 <p align="center">
-  <img src="/Results/result2.png" alt="Comparison of the different pre-processing techniques when salt and pepper noise is applied on the images">
+  <img src="/Results/result2.png" alt="Comparison of the different pre-processing techniques when salt and pepper noise is applied on the images" style="width: 75%;">
 </p>
 Lastly, we also tested the impact of image pre-processing by introducing gaussian blur along with white noise.
 <p align="center">
-  <img src="/Results/result3.png" alt="Comparison of the different pre-processing techniques when gaussian blur and white noise is applied on the images">
+  <img src="/Results/result3.png" alt="Comparison of the different pre-processing techniques when gaussian blur and white noise is applied on the images" style="width: 75%;">
 </p>
+
 
 ## Project Structure
 
